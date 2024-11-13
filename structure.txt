@@ -6,7 +6,7 @@ banking-app/
 ├── controllers/
 │   ├── authController.js    // Handles authentication and session management
 │   ├── profileController.js // Handles customer profile operations
-│   ├── bankController.js    // Manages money transfers and transaction history
+│   ├── bankingController.js    // Manages money transfers and transaction history
 │   ├── supportController.js // Manages support-related features, including file uploads
 │
 ├── models/
@@ -15,20 +15,21 @@ banking-app/
 │   ├── Support.js           // Model for support tickets
 │
 ├── public/
-│   ├── css/
-│   │   ├── main.css         // Custom CSS styles
-│   ├── js/
-│   │   ├── main.js          // Custom JavaScript for frontend logic
-│   │   ├── auth.js          // JavaScript for handling authentication and login
-│   │   ├── transfer.js      // JavaScript for managing transfers and transactions
-│   │   ├── profile.js       // JavaScript for customer profile operations
-│   │   ├── support.js       // JavaScript for handling the support form and image uploads
-│   └── uploads/             // Directory for storing uploaded images (publicly accessible)
+│   ├── styles/
+|   |   |──   index.css
+|   |   |──   login.css   
+│   │   |
+|   |   |
+│   ├── scripts/
+│   │   ├── auth.js          
+│   │   ├── main.js         
+│   │   ├     
+│   └── uploads/         
 │
 ├── routes/
 │   ├── authRoutes.js        // Routes for login and registration
 │   ├── profileRoutes.js     // Routes for customer profile and related actions
-│   ├── bankRoutes.js        // Routes for banking features
+│   ├── bankingRoutes.js        // Routes for banking features
 │   ├── supportRoutes.js     // Routes for support tab actions
 │
 ├── views/
