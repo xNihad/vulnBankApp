@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #212529;
+}
+.logo{
+    height: 70px;
+    width: 70px;    
+}
+.bg{
+    width: 100%;
+}
+header{
+    background-color: #212529;
+}
+.logo-container{
+    padding: 20px 40px;
+}
+.main-tabs > a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+.nav-cont{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.login-btn{
+    background-color: purple;
+    padding: 10px 25px ;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    border-color: transparent;
+    font-size: 15px;
+}
+footer{
+    background-color: #212529;
+    height: 120px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}

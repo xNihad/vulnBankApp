@@ -1,0 +1,46 @@
+banking-app/
+├── config/
+│   ├── config.js            // Database configuration (with hard-coded credentials)
+│   ├── db.js                // Database connection setup
+│
+├── controllers/
+│   ├── authController.js    // Handles authentication and session management
+│   ├── profileController.js // Handles customer profile operations
+│   ├── bankController.js    // Manages money transfers and transaction history
+│   ├── supportController.js // Manages support-related features, including file uploads
+│
+├── models/
+│   ├── User.js              // Model for user data
+│   ├── Transaction.js       // Model for transaction data
+│   ├── Support.js           // Model for support tickets
+│
+├── public/
+│   ├── css/
+│   │   ├── main.css         // Custom CSS styles
+│   ├── js/
+│   │   ├── main.js          // Custom JavaScript for frontend logic
+│   │   ├── auth.js          // JavaScript for handling authentication and login
+│   │   ├── transfer.js      // JavaScript for managing transfers and transactions
+│   │   ├── profile.js       // JavaScript for customer profile operations
+│   │   ├── support.js       // JavaScript for handling the support form and image uploads
+│   └── uploads/             // Directory for storing uploaded images (publicly accessible)
+│
+├── routes/
+│   ├── authRoutes.js        // Routes for login and registration
+│   ├── profileRoutes.js     // Routes for customer profile and related actions
+│   ├── bankRoutes.js        // Routes for banking features
+│   ├── supportRoutes.js     // Routes for support tab actions
+│
+├── views/
+│   ├── index.html           // Homepage
+│   ├── login.html           // Login page
+│   ├── profile.html         // Customer profile page
+│   ├── transfer.html        // Money transfer page
+│   ├── history.html         // Transaction history page
+│   ├── support.html         // Support page with image upload
+│
+├── .env                     // Environment variables (e.g., database credentials)
+├── .gitignore               // Ignores sensitive files (e.g., .env)
+├── app.js                   // Main Express application file
+├── package.json             // Project metadata and dependencies
+└── README.md                // Project documentation
