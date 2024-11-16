@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTB Bank - Support</title>
+    <link rel="stylesheet" href="/styles/support.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>HTB Bank</h2>
+            <nav>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#" class="active">Support</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <header>
+                <h1>Support</h1>
+                <div class="user-info">
+                    <span>Christos Christopoulos</span>
+                </div>
+            </header>
+            <section class="tickets-section">
+                <div class="tickets">
+                    <h2>My Tickets</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Title</th>
+                                <th>Message</th>
+                                <th>Attachment</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                       
+                            <tr>
+                                <td colspan="5" style="text-align: center;">No tickets available</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="ticket-form">
+                    <h2>Create Ticket</h2>
+                    <form>
+                        <label for="title">Title</label>
+                        <input type="text" id="title" name="title" placeholder="Title">
+                        
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Tell us your problem"></textarea>
+                        
+                        <label for="file">Attachment</label>
+                        <input type="file" id="file" name="file">
+                        
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
