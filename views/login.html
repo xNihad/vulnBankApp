@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="/styles/login.css">
+    <script src="/scripts/login.js" defer></script>
 </head>
 <body>
     
        <section>
         <div class="container">
             <h2>Login</h2>
-            <form action="/auth/login" method="POST">
-                <input type="email"  name="" placeholder="email" required />
-                <input type="password" name="" placeholder="password" required/>
+            <form id="loginForm">
+                <input type="email" id="email" name="" placeholder="email" required />
+                <input type="password" id="password" name="" placeholder="password" required/>
                 <button type="submit">Login</button>
             </form>
         </div>
